@@ -6,18 +6,105 @@ AnaSoftVerK
 </name>
 </assembly>
 <members>
+<member name="T:AnaSoftVerK.My.Resources.Resources">
+<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
 <member name="P:AnaSoftVerK.My.Resources.Resources.ResourceManager">
-	<summary>
+<summary>
   このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
 </summary>
-</member><member name="P:AnaSoftVerK.My.Resources.Resources.Culture">
-	<summary>
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.Culture">
+<summary>
   厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
   現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
 </summary>
-</member><member name="T:AnaSoftVerK.My.Resources.Resources">
-	<summary>
-  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.black">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.blue">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.brown">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.glay">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.green">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.horseIcon">
+<summary>
+  (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.lightblue">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.orange">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.pink">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.purple">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.red">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.splash_logo">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.title_logo">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.title_logo_name">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.versionImg">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.yellow">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="P:AnaSoftVerK.My.Resources.Resources.yellowgreen">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
 </summary>
 </member>
 </members>

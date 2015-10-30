@@ -1,9 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DarkHorceSystemK", "DarkHorceSystemK.vbproj", "{D7BD18DC-0EB2-45E2-898E-4B4FD86D0463}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{03F3F636-C9F7-4BC8-A0E4-E16A18221F04}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DarkHorceSystemK", "DarkHorceSystemK.vbproj", "{D7BD18DC-0EB2-45E2-898E-4B4FD86D0463}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
