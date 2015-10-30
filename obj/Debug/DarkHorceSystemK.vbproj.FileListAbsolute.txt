@@ -1,0 +1,34 @@
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\bin\Debug\AnaSoftVerK.exe
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\bin\Debug\AnaSoftVerK.pdb
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\bin\Debug\AnaSoftVerK.xml
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\bin\Debug\Interop.JVDTLabLib.dll
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\bin\Debug\AxInterop.JVDTLabLib.dll
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\Interop.JVDTLabLib.dll
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\AxInterop.JVDTLabLib.dll
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\DarkHorceSystemK.vbproj.ResolveComReference.cache
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\AnaSoftVerK.dlgKakoDelete.resources
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\AnaSoftVerK.dlgLogin.resources
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\AnaSoftVerK.dlgQuitMessage.resources
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\AnaSoftVerK.dlgTimer.resources
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\AnaSoftVerK.dlgUpdateTime.resources
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\AnaSoftVerK.dlgVersionInfo.resources
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\AnaSoftVerK.frmMain.resources
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\AnaSoftVerK.frmWrappedJVLink.resources
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\AnaSoftVerK.Resources.resources
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\AnaSoftVerK.SplashScreen.resources
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\DarkHorceSystemK.vbproj.GenerateResource.Cache
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\AnaSoftVerK.exe
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\AnaSoftVerK.xml
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\AnaSoftVerK.pdb
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\bin\Debug\AnaSoftVerK.exe.manifest
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\bin\Debug\AnaSoftVerK.application
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\AnaSoftVerK.TrustInfo.xml
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\AnaSoftVerK.exe.manifest
+C:\Users\daira9\Documents\Visual Studio 2008\Projects\DarkHorceSystemK\obj\Debug\AnaSoftVerK.application
+H:\work\バージョンK\DarkHorceSystemK\obj\Debug\Interop.JVDTLabLib.dll
+H:\work\バージョンK\DarkHorceSystemK\obj\Debug\AxInterop.JVDTLabLib.dll
+H:\work\バージョンK\DarkHorceSystemK\obj\Debug\DarkHorceSystemK.vbproj.ResolveComReference.cache
+H:\work\バージョンK\DarkHorceSystemK\obj\Debug\AnaSoftVerK.exe
+H:\work\バージョンK\DarkHorceSystemK\obj\Debug\AnaSoftVerK.xml
+H:\work\バージョンK\DarkHorceSystemK\obj\Debug\AnaSoftVerK.pdb

@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D7BD18DC-0EB2-45E2-898E-4B4FD86D0463}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>AnaSoftVerK.My.MyApplication</StartupObject>
+    <RootNamespace>AnaSoftVerK</RootNamespace>
+    <AssemblyName>AnaSoftVerK</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>true</GenerateManifests>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <ManifestCertificateThumbprint>663062A72BB760F63FCEA3418C775B417649D428</ManifestCertificateThumbprint>
+    <ManifestKeyFile>DarkHorceSystemK_TemporaryKey.pfx</ManifestKeyFile>
+    <SignManifests>false</SignManifests>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <PublishUrl>c:\inetpub\wwwroot\download\k\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://www10318uo.sakura.ne.jp/download/k/</InstallUrl>
+    <TargetCulture>ja-JP</TargetCulture>
+    <ProductName>互當穴ノ守　十周年記念ソフト</ProductName>
+    <PublisherName>互當穴ノ守</PublisherName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>21</ApplicationRevision>
+    <ApplicationVersion>0.9.0.21</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>AnaSoftVerK.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>AnaSoftVerK.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="basCommonUtil.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsCodeConv.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsCommonUtil.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsCSVOutput.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDarkHorseSelect.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsHousoku.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsKeySort.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CommonConstant.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dlgKakoDelete.Designer.vb">
+      <DependentUpon>dlgKakoDelete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgKakoDelete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgLogin.Designer.vb">
+      <DependentUpon>dlgLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgQuitMessage.Designer.vb">
+      <DependentUpon>dlgQuitMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgQuitMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgTimer.Designer.vb">
+      <DependentUpon>dlgTimer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgTimer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgUpdateTime.Designer.vb">
+      <DependentUpon>dlgUpdateTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgUpdateTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgVersionInfo.Designer.vb">
+      <DependentUpon>dlgVersionInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgVersionInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoubleBufferedSplitContainer.Designer.vb">
+      <DependentUpon>DoubleBufferedSplitContainer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DoubleBufferedSplitContainer.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DoubleBufferedTableLayoutPanel.Designer.vb">
+      <DependentUpon>DoubleBufferedTableLayoutPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DoubleBufferedTableLayoutPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWrappedJVLink.Designer.vb">
+      <DependentUpon>frmWrappedJVLink.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWrappedJVLink.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JVData_Structure.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="dlgKakoDelete.resx">
+      <DependentUpon>dlgKakoDelete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgLogin.resx">
+      <DependentUpon>dlgLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgQuitMessage.resx">
+      <DependentUpon>dlgQuitMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgTimer.resx">
+      <DependentUpon>dlgTimer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgUpdateTime.resx">
+      <DependentUpon>dlgUpdateTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgVersionInfo.resx">
+      <DependentUpon>dlgVersionInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWrappedJVLink.resx">
+      <DependentUpon>frmWrappedJVLink.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CodeTable.csv" />
+    <None Include="DarkHorceSystemK_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="TempCA.cer" />
+    <Content Include="verkadmin.xls" />
+    <Content Include="verk.xls" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows インストーラ 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxJVDTLabLib">
+      <Guid>{2AB17740-0C41-11D7-916F-0003479BEB3F}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>18</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="JVDTLabLib">
+      <Guid>{2AB17740-0C41-11D7-916F-0003479BEB3F}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>18</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
