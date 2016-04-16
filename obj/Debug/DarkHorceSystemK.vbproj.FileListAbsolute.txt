@@ -54,3 +54,9 @@ H:\work\バージョンK\DarkHorceSystemK\bin\Debug\AnaSoftVerK.xml
 H:\work\バージョンK\DarkHorceSystemK\bin\Debug\Interop.JVDTLabLib.dll
 H:\work\バージョンK\DarkHorceSystemK\bin\Debug\AxInterop.JVDTLabLib.dll
 H:\work\バージョンK\DarkHorceSystemK\obj\Debug\AnaSoftVerK.application
+\\dairalbp770b\H\work\バージョンK\DarkHorceSystemK\obj\Debug\Interop.JVDTLabLib.dll
+\\dairalbp770b\H\work\バージョンK\DarkHorceSystemK\obj\Debug\AxInterop.JVDTLabLib.dll
+\\dairalbp770b\H\work\バージョンK\DarkHorceSystemK\obj\Debug\DarkHorceSystemK.vbproj.ResolveComReference.cache
+\\dairalbp770b\H\work\バージョンK\DarkHorceSystemK\obj\Debug\AnaSoftVerK.exe
+\\dairalbp770b\H\work\バージョンK\DarkHorceSystemK\obj\Debug\AnaSoftVerK.xml
+\\dairalbp770b\H\work\バージョンK\DarkHorceSystemK\obj\Debug\AnaSoftVerK.pdb
